@@ -8,7 +8,9 @@ public class Biblioteca {
         carti= new ArrayList<Carte>();
     }
     public void addCarte(Carte carte){
+	printf("da da da");
         carti.add(carte);
+	printf("sad");
     }
 
     public boolean add(Biblioteca b){
