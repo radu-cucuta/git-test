@@ -15,6 +15,7 @@ public class Biblioteca {
         for (Carte c:b.carti) {
             this.addCarte(c);
         }
+	//trebuia sa modific cu foreach in loc de iterator
         return true;
     }
 
