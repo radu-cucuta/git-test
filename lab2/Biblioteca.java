@@ -21,10 +21,13 @@ public class Biblioteca {
 
     @Override
     public String toString() {
-        String ret="";
-        for (Carte carte:carti) {
-            ret += carte.toString();
-        }
-        return ret;
+	StringBuilder str = new StringBuilder();
+ 
+        carti.forEach( carte ->{
+            str.append(carte.toString());
+            str.append("\n");
+        });
+ 
+        return str.toString();
     }
 }
