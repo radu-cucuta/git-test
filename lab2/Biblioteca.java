@@ -8,7 +8,7 @@ public class Biblioteca {
         carti= new ArrayList<Carte>();
     }
     public void addCarte(Carte carte){
-        carti.add(carte);
+        ceafbkjaf
     }
 
     public boolean add(Biblioteca b){
